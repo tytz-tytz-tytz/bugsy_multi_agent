@@ -1,0 +1,35 @@
+{
+  "query": "медиа группы",
+  "covered": [
+    {
+      "entity_id": "section_ch0681",
+      "entity_type": "passage",
+      "description": "Определение аудитории",
+      "attribute_ids": [
+        "AUD-001",
+        "AUD-002",
+        "AUD-003"
+      ]
+    },
+    {
+      "entity_id": "section_ch1056",
+      "entity_type": "passage",
+      "description": "Общая информация о событиях",
+      "attribute_ids": [
+        "EVT-001",
+        "EVT-002"
+      ]
+    },
+    {
+      "entity_id": "section_ch0704",
+      "entity_type": "passage",
+      "description": "Формат файлов JSON",
+      "attribute_ids": [
+        "AUD-004",
+        "AUD-005"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 3. Covered: 3. Uncovered: 0."
+}

@@ -1,54 +1,3 @@
-from __future__ import annotations
-
-from typing import List
-
-from bugsy_multi_agent.models.testing_context import TestingContext, Passage
-
-
-def _format_passages(passages: List[Passage], label: str) -> str:
-    """
-    Форматирует список Passages в удобный для LLM текстовый блок.
-    """
-    if not passages:
-        return f"{label}: []"
-
-    lines = [f"{label}:"]
-    for idx, p in enumerate(passages, start=1):
-        lines.append(
-            f"[{idx}] section_id={p.section_id}\n"
-            f"TITLE: {p.title}\n"
-            f"SUMMARY: {p.summary}\n"
-        )
-    return "\n".join(lines)
-
-
-def build_attribute_generator_prompt(
-    ctx: TestingContext,
-    query_override: str | None = None,
-) -> str:
-    """
-    Собирает промпт для AttributeGeneratorAgent.
-
-    query_override позволяет подменить текст запроса
-    (например, взять его из data/queries.json).
-    """
-    core_text = _format_passages(ctx.core_passages, "CORE PASSAGES")
-    supp_text = _format_passages(ctx.supporting_passages, "SUPPORTING PASSAGES")
-
-    query_text = (query_override or ctx.query).strip()
-
-    domain_entities_text = (
-        "\n".join(f"- {e}" for e in ctx.domain_entities)
-        if ctx.domain_entities
-        else "нет явных сущностей"
-    )
-    hints_text = (
-        "\n".join(f"- {h}" for h in ctx.hints_for_tests)
-        if ctx.hints_for_tests
-        else "нет подсказок, опирайся на тексты секций"
-    )
-
-    prompt = f"""
 Ты выступаешь в роли Attribute Generator Agent в системе тест-дизайна WEB-интерфейса "Консоли маркетолога".
 
 Тебе дан TestingContext по запросу пользователя.
@@ -112,5 +61,3 @@ hints_for_tests:
 - Старайся не делать дублирующих атрибутов с одинаковым смыслом.
 
 Напомню: верни только JSON-массив объектов Attribute, без дополнительного текста до или после.
-"""
-    return prompt.strip()

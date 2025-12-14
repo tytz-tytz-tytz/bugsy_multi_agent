@@ -1,0 +1,22 @@
+{
+  "query": "создание и настройки виджета",
+  "covered": [
+    {
+      "entity_id": "section_ch1467",
+      "entity_type": "passage",
+      "description": "Настройка виджетов подключения к боту для сайта компании",
+      "attribute_ids": [
+        "EVT-001",
+        "EVT-002",
+        "EVT-003",
+        "EVT-004",
+        "EVT-005",
+        "EVT-006",
+        "EVT-007",
+        "EVT-008"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 1. Covered: 1. Uncovered: 0."
+}

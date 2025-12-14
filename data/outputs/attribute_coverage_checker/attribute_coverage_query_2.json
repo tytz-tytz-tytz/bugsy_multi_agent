@@ -1,0 +1,19 @@
+{
+  "query": "связи между блоками рассылки",
+  "covered": [
+    {
+      "entity_id": "section_ch0125",
+      "entity_type": "passage",
+      "description": "Блоки действий",
+      "attribute_ids": [
+        "EVT-001",
+        "EVT-002",
+        "EVT-003",
+        "EVT-004",
+        "EVT-006"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 1. Covered: 1. Uncovered: 0."
+}

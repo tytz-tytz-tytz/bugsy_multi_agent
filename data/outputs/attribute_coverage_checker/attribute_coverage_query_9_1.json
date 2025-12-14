@@ -1,0 +1,37 @@
+{
+  "query": "создание и настройка лендинга",
+  "covered": [
+    {
+      "entity_id": "section_ch0047",
+      "entity_type": "passage",
+      "description": "Интерфейс для работы с рассылками",
+      "attribute_ids": [
+        "EVT-001",
+        "EVT-002",
+        "EVT-011",
+        "EVT-012"
+      ]
+    },
+    {
+      "entity_id": "section_ch0450",
+      "entity_type": "passage",
+      "description": "Настройка условий начала рассылки",
+      "attribute_ids": [
+        "EVT-003",
+        "EVT-004"
+      ]
+    },
+    {
+      "entity_id": "section_ch0626",
+      "entity_type": "passage",
+      "description": "Расширенные настройки",
+      "attribute_ids": [
+        "EVT-008",
+        "EVT-009",
+        "EVT-013"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 3. Covered: 3. Uncovered: 0."
+}

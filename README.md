@@ -150,7 +150,12 @@ bugsy_multi_agent/
 Установить API‑ключ DeepSeek:
 
 ```
-setx DEEPSEEK_API_KEY "ваш_ключ"
+$env:DEEPSEEK_API_KEY = "ваш_ключ"
+```
+
+Задать путь:
+```
+$env:PYTHONPATH = "$PWD\src"
 ```
 
 ### 7.2. Запуск полного пайплайна

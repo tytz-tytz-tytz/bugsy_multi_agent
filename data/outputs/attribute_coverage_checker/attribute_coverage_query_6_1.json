@@ -1,0 +1,31 @@
+{
+  "query": "условия вопросов в формах",
+  "covered": [
+    {
+      "entity_id": "section_ch1344",
+      "entity_type": "passage",
+      "description": "Настройка условий отправки вопросов",
+      "attribute_ids": [
+        "EVT-001",
+        "EVT-002",
+        "EVT-003"
+      ]
+    },
+    {
+      "entity_id": "section_ch1393",
+      "entity_type": "passage",
+      "description": "Использование ответов на вопросы",
+      "attribute_ids": [
+        "EVT-004",
+        "EVT-005",
+        "EVT-006",
+        "EVT-007",
+        "EVT-008",
+        "EVT-009",
+        "EVT-010"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 2. Covered: 2. Uncovered: 0."
+}

@@ -1,0 +1,27 @@
+{
+  "query": "добавление действий в блоки рассылки",
+  "covered": [
+    {
+      "entity_id": "section_ch0113",
+      "entity_type": "passage",
+      "description": "Настройка сценария рассылки",
+      "attribute_ids": [
+        "EVT-001",
+        "EVT-002",
+        "EVT-015"
+      ]
+    },
+    {
+      "entity_id": "section_ch0125",
+      "entity_type": "passage",
+      "description": "Блоки действий",
+      "attribute_ids": [
+        "EVT-003",
+        "EVT-004",
+        "EVT-005"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 2. Covered: 2. Uncovered: 0."
+}

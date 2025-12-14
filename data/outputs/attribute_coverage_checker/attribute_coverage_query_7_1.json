@@ -1,0 +1,47 @@
+{
+  "query": "макросы в конструкторе рассылок",
+  "covered": [
+    {
+      "entity_id": "section_ch1147",
+      "entity_type": "passage",
+      "description": "Использование макросов",
+      "attribute_ids": [
+        "EVT-015"
+      ]
+    },
+    {
+      "entity_id": "section_ch2133",
+      "entity_type": "passage",
+      "description": "Приложение Б. Типы макросов",
+      "attribute_ids": [
+        "EVT-003",
+        "EVT-004"
+      ]
+    },
+    {
+      "entity_id": "section_ch1188",
+      "entity_type": "passage",
+      "description": "Поля, в которых можно использовать макросы",
+      "attribute_ids": [
+        "EVT-005",
+        "EVT-006",
+        "EVT-016",
+        "EVT-017",
+        "EVT-018"
+      ]
+    },
+    {
+      "entity_id": "section_ch1208",
+      "entity_type": "passage",
+      "description": "Проверка наличия макросов",
+      "attribute_ids": [
+        "EVT-009",
+        "EVT-010",
+        "EVT-011",
+        "EVT-012"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 4. Covered: 4. Uncovered: 0."
+}

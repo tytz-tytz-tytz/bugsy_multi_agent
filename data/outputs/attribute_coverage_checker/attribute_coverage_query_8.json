@@ -1,0 +1,40 @@
+{
+  "query": "SMS провайдер",
+  "covered": [
+    {
+      "entity_id": "section_ch0887",
+      "entity_type": "passage",
+      "description": "Регистрация SMS-провайдера",
+      "attribute_ids": [
+        "EVT-001"
+      ]
+    },
+    {
+      "entity_id": "section_ch2142",
+      "entity_type": "passage",
+      "description": "Приложение В. Настройка SMS-провайдера «СМС услуги»",
+      "attribute_ids": [
+        "EVT-002"
+      ]
+    },
+    {
+      "entity_id": "section_ch2162",
+      "entity_type": "passage",
+      "description": "Приложение Г. Настройка SMS-провайдера «SMS.ru»",
+      "attribute_ids": [
+        "EVT-003"
+      ]
+    },
+    {
+      "entity_id": "section_ch0980",
+      "entity_type": "passage",
+      "description": "Добавление клиентов",
+      "attribute_ids": [
+        "EVT-004",
+        "EVT-005"
+      ]
+    }
+  ],
+  "uncovered": [],
+  "summary": "Core passages: 4. Covered: 4. Uncovered: 0."
+}
